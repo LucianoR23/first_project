@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: grid;
+    font-family: $font-primary;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    color: $secondary;
+    // background-image: url(../public/img/backimg.svg);
+    background-size: cover;
+}
+
+ol, ul {
+    padding-left: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
