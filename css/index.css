@@ -15,7 +15,8 @@ body {
   font-family: "Roboto", sans-serif;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
-  color: #BBD4F3;
+  color: #FFDADA;
+  background-image: url(../public/img/background.png);
   background-size: cover; }
 
 ol, ul {
@@ -43,28 +44,22 @@ a {
 .grid {
   display: grid; }
 
-nav {
-  min-height: 10vh;
-  justify-content: space-between;
+main div {
   align-items: center;
-  flex-wrap: wrap;
-  padding: 0 2em; }
+  justify-content: space-between;
+  height: 100%; }
 
-.logo {
-  flex-basis: 20%; }
-
-.menu {
-  flex-basis: 30%;
+header div {
+  min-height: 10vh;
   justify-content: space-around;
-  font-size: 1.8em; }
-  .menu__link {
-    border: 0.14em solid #1C8ADB;
-    border-radius: 0.5em;
-    transition: border-color .3s ease-in;
-    padding: 0.5em; }
-  .menu__link:hover {
-    border-color: #BBD4F3;
-    border-radius: 0.5em; }
+  align-items: center;
+  min-width: 100vw; }
+  header div .logo {
+    flex-basis: 10%;
+    justify-content: center; }
+  header div h1 {
+    flex-basis: 20%;
+    font-size: 5em; }
 
 footer {
   min-width: 30em;
