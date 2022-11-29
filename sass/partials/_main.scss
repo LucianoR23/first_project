@@ -1,8 +1,18 @@
 main {
-    
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 100px;
+    column-gap: 100px;
+    align-items: center;
+    justify-content: center;
+
     div {
-        align-items: center;
-        justify-content: space-between;
-        height: 100%;
+        img {
+            max-width: 100px;
+        }
+    }
+
+    h3{
+        font-size: $text-lg;
     }
 }

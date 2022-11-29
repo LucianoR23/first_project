@@ -9,6 +9,12 @@ header {
             flex-basis: 10%;
             justify-content: center;
         }
+
+        .carrito {
+            img {
+                max-width: 5em;
+            }
+        }
         
         h1 {
             flex-basis: 20%;
